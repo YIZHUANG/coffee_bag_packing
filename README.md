@@ -7,11 +7,16 @@ Node.js back-end, and mongoDB as the database.
 ```
 $ npm install
 ```
+## Run the back-end
+```
+$ npm run server
+```
 
-## Run the app:
+## Run the fron-end
 ```
 $ npm start
 ```
+
 ```
 Functions:
 display list of posts.
