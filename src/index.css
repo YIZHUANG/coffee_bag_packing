@@ -2,4 +2,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+
+}
+
+.container .cubic_form{
+  display:flex;
+  flex-direction: column;
+}
+
+p{
+  font-size: 20px;
 }
