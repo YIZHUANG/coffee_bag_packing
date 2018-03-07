@@ -41,8 +41,9 @@ const Calculator = (coffeeBags, box, count = 1) => {
   } else if (coffeeBags.every(item => item.quantity <= 0)) {
     return count; //the condition to break the recursion
   }
+
+    ///////  Content
   coffeeBags.sort((a, b) => b.volume - a.volume); // sort it from descending order
-  ///////  Content
   for (let x = 0; x < coffeeBags.length; x++) {
     if (coffeeBags[x].quantity <= 0) {
       coffeeBags.splice(x, 1); // if a type of coffee bag has been filled already, remove it from the array

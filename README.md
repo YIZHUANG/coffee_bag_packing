@@ -23,8 +23,9 @@ is to make it easier for me to make the input form to take input from users.
 
 [Show me the Demo](http://yi-coffee.surge.sh/)
 
+## run test!
 ```
-The good solution could be using data structure like binary search tree for this problem.
+npm run test
 ```
 
 ## Install project dependencies
