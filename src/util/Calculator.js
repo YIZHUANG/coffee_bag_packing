@@ -25,12 +25,12 @@ const Calculator = (coffeeBags, box, count = 1) => {
     (count, value) => count + value.quantity,
     0
   );
-  if (!box) {
+  if (!box.length) {
     return 'Invalid input! Please specify the box edeges';
   } else if (!coffeeBags.length) {
     return 'Invalid input! Please specify the coffee bags';
   } else if (numberOfDigits.toString().length > 5 && count === 1) {
-    return 'Invalid input! Your input is too large ';
+    return 'Invalid input! Your input is too large';
     // prevent the app from crashing. specify the count =1 so it doesnt need to be run everytime
   } else if (box[0] < 30 || (box[0] > 100 && count === 1)) {
     return 'Invalid input! The edeges of the cubic box has to be 30 to 100';

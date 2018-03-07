@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
+    "jest": "^22.4.2",
     "react": "^0.14.9",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^0.14.9",
@@ -13,7 +14,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest",
     "eject": "react-scripts eject"
   }
 }
